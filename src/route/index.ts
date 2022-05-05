@@ -1,7 +1,7 @@
-import express from 'express'
-import {signUPUser} from '../controller/index'
-let router = express.Router()
+import userRouter from './user.route'
+import taskRoute from './task.route'
 
-
-router.post('/', signUPUser)
-export = router
+export = {
+    userRouter:userRouter,
+    taskRoute:taskRoute
+}

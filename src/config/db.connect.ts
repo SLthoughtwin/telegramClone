@@ -13,6 +13,20 @@ client.connect( (err)=> {
   }
   console.log('db connect successfully')
 });
+export = client;
+
+
+
+
+
+
+
+
+
+
+
+
+
 // const chechDB = async () =>{
     
 //     try{ await client.connect
@@ -24,5 +38,3 @@ client.connect( (err)=> {
 //     finally{client.end()}
 // }
 // chechDB().then(()=>console.log('connectdb'))
-
-// module.exports = client;
